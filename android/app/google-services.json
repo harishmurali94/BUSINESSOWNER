@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854536915978",
+    "firebase_url": "https://anytime-business.firebaseio.com",
+    "project_id": "anytime-business",
+    "storage_bucket": "anytime-business.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854536915978:android:bafb252c1e924ee58ea3f3",
+        "android_client_info": {
+          "package_name": "com.anytimebusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854536915978-om0ml0f1i3h7ik900djet1tnc961jjuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anytimebusiness",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "854536915978-bg5elm7h3qaj4ama5nr5kd5mvbpvouc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbpmflhHKJuI83zONhHUgnoZGdjxFn3GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854536915978-bg5elm7h3qaj4ama5nr5kd5mvbpvouc3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854536915978-et94phe1mtgs291ll1p96knij6l81cmh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anytimebusiness"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

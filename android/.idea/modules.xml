@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnytimeBusiness.iml" filepath="$PROJECT_DIR$/AnytimeBusiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-camera/android/react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/datetimepicker/android/react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/datetimepicker/android/react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/geolocation/android/react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/geolocation/android/react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/masked-view/android/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/masked-view/android/react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-firebase/app/android/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-firebase/app/android/react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-firebase/messaging/android/react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-firebase/messaging/android/react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-flipper/android/react-native-flipper.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-flipper/android/react-native-flipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-permissions/android/react-native-permissions.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-permissions/android/react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-push-notification/android/react-native-push-notification.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-push-notification/android/react-native-push-notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android/react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-screens/android/react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-splash-screen/android/react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
