@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   userImage: {
     width: 86,
     height: 101,
-    resizeMode: "cover",
+    resizeMode: "contain",
     borderRadius: 12,
   },
   userDetail: {

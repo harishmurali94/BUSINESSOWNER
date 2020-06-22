@@ -61,7 +61,7 @@ export default function JobDetailScreen(props) {
 
   function showProfile(item) {
     props.navigation.navigate("ProfileScreen", {
-      userDetails: item,
+      jsuserId: item.jsuserId,
       jobid: jobid,
     });
   }
@@ -73,9 +73,12 @@ export default function JobDetailScreen(props) {
       {jobDetail && Object.keys(jobDetail).length > 0 && (
         <ScrollView style={styles.container}>
           <View style={styles.detailView}>
-            <Text style={styles.openingText}>
+          {jobDetail.noofPersons < 2?<Text style={styles.openingText}>
               {jobDetail?.noofPersons} opening
-            </Text>
+            </Text>:
+            <Text style={styles.openingText}>
+              {jobDetail?.noofPersons} openings
+            </Text>}
             <Text style={styles.jobHeadingText}>{jobDetail?.jobTitle}</Text>
             <View style={styles.locationView}>
               <Image source={images.jobs.location} />

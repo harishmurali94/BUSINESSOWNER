@@ -75,12 +75,22 @@ export default function JobListScreen(props) {
     props.navigation.navigate("JobDetailScreen", { jobid: item.jobId });
   };
 
+  function onRefreshItems() {
+    let data = {
+      jobType: 0,
+      userId: boUserId,
+    };
+    dispatch(getCreatedJobAction.createdJobsRequest(data));
+  }
+
   return (
     <SafeAreaView style={styles.safeAreaView}>
       {jobList.length > 0 ? (
         <View style={styles.container}>
           <FlatList
             data={jobList}
+            onRefresh={onRefreshItems}
+            refreshing={loader}
             renderItem={({ item }) => (
               <JobComponent item={item} onJobPress={onJobPress} />
             )}
@@ -130,7 +140,7 @@ function JobComponent({ item, onJobPress }) {
         </View>
         <View style={styles.itemView}>
           <View style={styles.topButtonView}>
-            <Text style={styles.openText}>{item.noofPersons} opening</Text>
+          {item.noofPersons < 2 ? <Text style={styles.openText}>{item.noofPersons} opening</Text>:<Text style={styles.openText}>{item.noofPersons} openings</Text>}
             <Text style={styles.dateViewText} numberOfLines={1}>
               {Moment(item?.jobStartson).format("DD MMM")} -
               {Moment(item?.jobEndson).format("DD MMM")}

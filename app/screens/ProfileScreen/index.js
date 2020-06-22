@@ -40,7 +40,7 @@ export default function ProfileScreen(props) {
   const userProfile = useSelector(
     (state) => state.appliedUserProfileReducer.userProfile[0]
   );
-  const jsuserId = props.route.params.userDetails.jsuserId;
+  const jsuserId = props.route.params.jsuserId;
   const jobid = props.route.params.jobid;
   const boUserId = useSelector((state) => state.profileReducer.boUserId);
   const dispatch = useDispatch();
