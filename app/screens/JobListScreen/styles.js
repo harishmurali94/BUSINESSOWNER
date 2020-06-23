@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
     alignItems:'flex-start'
   },
   squareView: {
-    backgroundColor: AppStyles.color.COLOR_YELLOW,
     borderRadius: 6,
     height: 100,
     width: 92,
@@ -90,7 +89,6 @@ const styles = StyleSheet.create({
     color: AppStyles.color.COLOR_BLUE_INDIGO,
     fontSize: 12,
     fontFamily: constants.Fonts.MEDIUM,
-    width:metrics.screenWidth/2.3,
   },
   dateViewText:{
     color: AppStyles.color.COLOR_BLUE_INDIGO,
@@ -113,7 +111,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 18,
     fontFamily: constants.Fonts.MEDIUM,
-    width:80,
   },
   image: {
     width: 70,

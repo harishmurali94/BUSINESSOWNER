@@ -128,14 +128,14 @@ function JobComponent({ item, onJobPress }) {
   const workingDays = item.WorkingDays.map((days) => {
     return days.DayName;
   });
-  console.warn('hjjkhbh',item);
+  console.warn('hjjkhbh',item.status);
   return (
     <View style={styles.item}>
       <TouchableOpacity
         style={styles.listView}
         onPress={() => onJobPress(item)}
       >
-        <View style={styles.squareView}>
+        <View style={[styles.squareView,{backgroundColor:item.status === 'In Progress'?'#69E4A6':'#ffc400'}]}>
           <Image source={{ uri: item.jobIcon }} style={styles.images} />
         </View>
         <View style={styles.itemView}>

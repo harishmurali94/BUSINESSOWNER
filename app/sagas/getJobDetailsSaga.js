@@ -16,6 +16,7 @@ export default function* getJobDetails(action) {
 
   try{
     const response = yield call(getJobDetailsCall, action.params,userToken);
+    console.warn("SUCESSSSSSSS",response)
     if(response.Status ===  "Success"){
         yield put(getJobDetailsActions.getJobDetailResponse(response.Data));
         yield delay(1000);

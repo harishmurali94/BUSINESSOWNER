@@ -73,12 +73,19 @@ export default function JobDetailScreen(props) {
       {jobDetail && Object.keys(jobDetail).length > 0 && (
         <ScrollView style={styles.container}>
           <View style={styles.detailView}>
+            <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
           {jobDetail.noofPersons < 2?<Text style={styles.openingText}>
               {jobDetail?.noofPersons} opening
             </Text>:
             <Text style={styles.openingText}>
               {jobDetail?.noofPersons} openings
             </Text>}
+            <View style={styles.appliedView}>
+                  <Text style={styles.appliedText}>
+                    {jobDetail?.noofusersapplied} Applied
+                  </Text>
+                </View>
+                </View>
             <Text style={styles.jobHeadingText}>{jobDetail?.jobTitle}</Text>
             <View style={styles.locationView}>
               <Image source={images.jobs.location} />
@@ -87,13 +94,12 @@ export default function JobDetailScreen(props) {
               </Text>
             </View>
             <View style={styles.dateView}>
-            {appliedUsersList.length > 0 && (
-                <View style={styles.appliedView}>
+            
+                 <View style={styles.appliedView}>
                   <Text style={styles.appliedText}>
-                    {appliedUsersList.length} Applied
+                    {jobDetail?.noofusershired} Hired
                   </Text>
                 </View>
-              )}
               <View style={styles.dateDetailView}>
                 <Text style={styles.dateText}>
                   {Moment(jobDetail?.jobStartson).format("DD MMM")} -
